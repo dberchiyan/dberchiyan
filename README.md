@@ -30,6 +30,23 @@ developer can pick it up.
 | Mobile | React Native (iOS and Android) |
 | DevOps | AWS, Docker, Kubernetes, GitHub Actions, CI/CD |
 
+## Open-source projects
+
+**[Workus](https://github.com/dberchiyan/workus)** · [Live demo](https://demo-workus.osdb.io)
+
+Day-to-day HR for growing teams: employee profiles, salary reviews, time-off requests with
+approvals, a shared calendar, notifications and yearly insights. Multi-tenant from the ground up.
+
+- **Tenant isolation** – every route declares a policy, every id is checked against the caller's company, composite keys in the database
+- **Reliable writes** – idempotent POSTs, optimistic locking, money as exact decimals
+- **Full audit trail** – append-only log of every change and every sign-in
+- **Typed end to end** – generated API types, responses validated at runtime with Zod
+- **Polished UI** – mobile-friendly, light and dark themes, SEO landing page
+
+Try it as an owner, admin or employee — demo accounts are in the README.
+
+**Stack:** TypeScript · Node.js · NestJS · Prisma · PostgreSQL · Zod · React 19 · TanStack Query · MUI · Tailwind CSS · Astro · Docker
+
 ## Contact
 
-[Upwork](https://www.upwork.com/freelancers/~01933755263b1dc4a7) · [LinkedIn](https://www.linkedin.com/in/dberchiyan/) · [Email](dberchiyan@osdb.io)
+[Upwork](https://www.upwork.com/freelancers/~01933755263b1dc4a7)
