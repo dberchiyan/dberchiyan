@@ -37,7 +37,7 @@ developer can pick it up.
 Day-to-day HR for growing teams: employee profiles, salary reviews, time-off requests with
 approvals, a shared calendar, notifications and yearly insights. Multi-tenant from the ground up.
 
-- **Tenant isolation** – every route declares a policy, every id is checked against the caller's company, composite keys in the database
+- **Tenant isolation** – route policies, company checks on every ID, composite DB keys
 - **Reliable writes** – idempotent POSTs, optimistic locking, money as exact decimals
 - **Full audit trail** – append-only log of every change and every sign-in
 - **Typed end to end** – generated API types, responses validated at runtime with Zod
@@ -46,6 +46,22 @@ approvals, a shared calendar, notifications and yearly insights. Multi-tenant fr
 Try it as an owner, admin or employee — demo accounts are in the README.
 
 **Stack:** TypeScript · Node.js · NestJS · Prisma · PostgreSQL · Zod · React 19 · TanStack Query · MUI · Tailwind CSS · Astro · Docker
+
+**[CareNote AI](https://github.com/dberchiyan/carenote-ai)** · [Live demo](https://carenote.osdb.io)
+
+Voice documentation for nurses: say the note at the bedside, review the AI draft, confirm. Vitals,
+symptoms and medications come out structured, flagged against the ward's alert rules and saved as
+HL7 FHIR R4. The AI never writes to the record; the nurse confirms every value.
+
+- **Privacy first** – patients matched locally, names redacted before any LLM call
+- **Grounded AI** – strict output schema, every value linked to the words it came from
+- **Measured, not guessed** – held-out evals, nurse corrections become new test cases
+- **Clinical safety** – role and ward checks, append-only audit log, validated FHIR
+- **Polished UI** – mobile-first, light and dark themes, an in-app guide for each role
+
+Try it as a nurse, charge nurse or auditor — no sign-up, the guide walks you through.
+
+**Stack:** Python · FastAPI · SQLAlchemy · PostgreSQL · Claude API · Whisper · Presidio · HL7 FHIR · Next.js 16 · React 19 · TypeScript · TanStack Query · Tailwind CSS · Docker
 
 ## Contact
 
