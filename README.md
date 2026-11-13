@@ -63,6 +63,23 @@ Try it as a nurse, charge nurse or auditor — no sign-up, the guide walks you t
 
 **Stack:** Python · FastAPI · SQLAlchemy · PostgreSQL · Claude API · Whisper · Presidio · HL7 FHIR · Next.js 16 · React 19 · TypeScript · TanStack Query · Tailwind CSS · Docker
 
+**[Keyhaven](https://github.com/dberchiyan/keyhaven)** · [Live demo](https://keyhaven.osdb.io)
+
+Homes to rent and to buy in six US cities: a public catalogue with typo-tolerant search and shareable filters, saved homes and searches with a daily email, a listing page with photos, the price against comparable homes and similar listings. Landlords and agents list and manage; admins keep the site clean.
+
+- **Open by default** – anyone browses; an account only to save, list or manage
+- **Deny-by-default access** – declared route policies, ownership checked on every ID
+- **Reliable writes** – idempotent POSTs, optimistic locking, row locks on the photo pipeline, money as exact decimals
+- **Direct uploads** – presigned S3 PUTs, type and size signed in, bytes sniffed on confirmation
+- **Fast search** – one raw SQL statement, trigram text matching, partial indexes, medians for price context
+- **Typed end to end** – generated API types, responses validated at runtime with Zod
+- **SEO-ready** – prerendered city pages with JSON-LD, Astro landing on the same origin
+- **Polished UI** – mobile-first with a tab bar, light and dark themes, WCAG 2.2 AA
+
+Try it as a tenant, landlord, agent or admin — demo accounts are in the README.
+
+**Stack:** TypeScript · Node.js · NestJS · Prisma · PostgreSQL · Zod · React 19 · TanStack Query · MUI · Tailwind CSS · Astro · RustFS (S3) · Docker
+
 ## Contact
 
 [Upwork](https://www.upwork.com/freelancers/~01933755263b1dc4a7)
