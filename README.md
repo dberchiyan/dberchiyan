@@ -32,6 +32,8 @@ developer can pick it up.
 
 ## Open-source projects
 
+[![Workus — day-to-day HR for growing teams: dashboard, employees, profile, insights, requests and calendar, in light and dark themes and on a phone](docs/workus-banner.png)](https://demo-workus.osdb.io)
+
 **[Workus](https://github.com/dberchiyan/workus)** · [Live demo](https://demo-workus.osdb.io)
 
 Day-to-day HR for growing teams: employee profiles, salary reviews, time-off requests with
@@ -46,6 +48,8 @@ approvals, a shared calendar, notifications and yearly insights. Multi-tenant fr
 Try it as an owner, admin or employee — demo accounts are in the README.
 
 **Stack:** TypeScript · Node.js · NestJS · Prisma · PostgreSQL · Zod · React 19 · TanStack Query · MUI · Tailwind CSS · Astro · Docker
+
+[![CareNote AI: the recorder on a phone, the review of a self-corrected dictation with highlighted source words, and the AI quality page in dark mode](docs/carenote-banner.png)](https://carenote.osdb.io)
 
 **[CareNote AI](https://github.com/dberchiyan/carenote-ai)** · [Live demo](https://carenote.osdb.io)
 
@@ -62,6 +66,8 @@ HL7 FHIR R4. The AI never writes to the record; the nurse confirms every value.
 Try it as a nurse, charge nurse or auditor — no sign-up, the guide walks you through.
 
 **Stack:** Python · FastAPI · SQLAlchemy · PostgreSQL · Claude API · Whisper · Presidio · HL7 FHIR · Next.js 16 · React 19 · TypeScript · TanStack Query · Tailwind CSS · Docker
+
+[![Keyhaven — homes to rent and to buy: the landing page, the public catalogue with filters, a listing page, the landlord dashboard in dark mode and the catalogue on a phone](docs/keyhaven-banner.jpg)](https://keyhaven.osdb.io)
 
 **[Keyhaven](https://github.com/dberchiyan/keyhaven)** · [Live demo](https://keyhaven.osdb.io)
 
